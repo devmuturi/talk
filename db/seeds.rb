@@ -11,9 +11,9 @@
 Post.destroy_all
 
 # Create 20 posts
-20.times do 
-    Post.create(
-        title: Faker::Book.title,
-        body: Faker::Lorem.paragraph(sentence_count: 5)
-    )
+20.times do
+  Post.create(
+    title: Faker::Book.title,
+    body: Faker::Lorem.paragraph(sentence_count: 5)
+  )
 end
